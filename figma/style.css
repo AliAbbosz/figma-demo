@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/kcVem5.jpg);
+}
+div {
+  background: url(/IMAGE.jpg);
+  width: 1168px;
+  height: 400px;
+  margin-left: 200px;
+  border-radius: 20px;
+}
+h1 {
+  font-size: 75px;
+  text-align: center;
+  color: white;
+  padding-top: 90px;
+  font-weight: 500;
+  font-family: "Courier New";
+}
+p {
+  color: white;
+  text-align: center;
+  font-family: "Courier New";
+}
+button {
+  margin-left: 700px;
+  width: 200px;
+  height: 40px;
+  margin-top: 8px;
+  background-color: #0075e3;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button:hover {
+  width: 208px;
+  height: 45px;
+  transition: 0.5s;
+}
+button:active {
+  color: red;
+}
+
+.vivo {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card1:hover {
+  background-color: rgb(0, 255, 136);
+  transition: 0.7s;
+}
+.card2:hover {
+  background-color: rgb(0, 255, 136);
+  transition: 0.7s;
+}
+.card3:hover {
+  background-color: rgb(0, 255, 136);
+  transition: 0.7s;
+}
+.card1 {
+  transition: 0.7s;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 15px;
+}
+.card2 {
+  transition: 0.7s;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 15px;
+}
+.card3 {
+  transition: 0.7s;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 15px;
+}
+span {
+  color: white;
+}
+footer {
+  background-color: aquamarine;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+ul {
+  list-style: none;
+}
+li {
+  height: 40px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
